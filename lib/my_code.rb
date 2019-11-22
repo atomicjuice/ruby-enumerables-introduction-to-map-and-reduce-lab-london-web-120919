@@ -42,17 +42,6 @@ def reduce_to_total(array, starting_point = 0)
  end
 
 
-# def reduce_to_total(array, starting_point)
-#   i = 0
-#   starting_point
-#   while i < array.length do
-#    starting_point += array[i]
-#     i += 1
-#   end
-#    starting_point
-# end
-
-
 
 def reduce_to_all_true(array)
   if array.include? false
